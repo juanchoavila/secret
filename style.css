@@ -1,0 +1,54 @@
+body {
+    background-color: #FFFFFF;
+}
+
+.title-container {
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Lato', sans-serif;
+    font-size: xx-large;
+    color: #4C4C4C
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    font-family: 'IM Fell English', serif;
+    font-size: 8vh;
+    color: #4C4C4C;
+}
+
+.cat-container {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+/* Arrow */
+
+@keyframes moviendrew {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+#flecha {
+    animation-name: moviendrew;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    font-size: 100px;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #F05E68;
+}
