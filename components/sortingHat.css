@@ -86,3 +86,36 @@
     color: white;
     transform: rotateY(180deg);
 }
+
+
+/* Arrow */
+
+@keyframes moviendrew {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+#arrow {
+    animation-name: moviendrew;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #F05E68;
+}
+
+@media only screen and (max-width: 600px) {
+    .content-container {
+        font-size: 4vh;
+    }
+    #arrow {
+        font-size: 60px;
+    }
+}
