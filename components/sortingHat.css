@@ -1,10 +1,39 @@
+* {
+    background-color: #000000;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    font-family: 'IM Fell English', serif;
+    font-size: 7vh;
+    color: #FFFFFF;
+}
+
+.title-container {
+    display: grid;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Lato', sans-serif;
+    font-size: large;
+    color: #FFFFFF
+}
+
 .flip-card {
     background-color: transparent;
     width: 300px;
-    height: 200px;
+    height: 300px;
     border: 1px solid #f1f1f1;
     perspective: 1000px;
-    margin: 20%;
+    margin: 0 5%;
     /* Remove this if you don't want the 3D effect */
 }
 
@@ -45,15 +74,15 @@
 /* Style the front side (fallback if image is missing) */
 
 .flip-card-front {
-    background-color: #bbb;
-    color: black;
+    background-color: #000000;
+    color: #000000;
 }
 
 
 /* Style the back side */
 
 .flip-card-back {
-    background-color: dodgerblue;
+    background-color: #000000;
     color: white;
     transform: rotateY(180deg);
 }

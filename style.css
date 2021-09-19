@@ -40,7 +40,7 @@ body {
     }
 }
 
-#flecha {
+#arrow {
     animation-name: moviendrew;
     animation-duration: 0.5s;
     animation-iteration-count: infinite;
